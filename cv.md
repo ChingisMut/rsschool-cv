@@ -31,7 +31,7 @@ I want to learn Front-End Development in **RSSchool**!
   function mergeArrays(arr1, arr2) {
    const num1 = arr1.concat(arr2);
    const num2 = num1.sort(function(a, b) {
-     return a - b;
+    return a - b;
    })
    const arr3 = new Set(num2);
    return barr = Array.from(arr3);
