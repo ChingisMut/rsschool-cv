@@ -5,8 +5,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Teko:wght@400;700&display=swap" rel="stylesheet">
-  <style> @import url('https://fonts.googleapis.com/css2?family=Teko:wght@400;700&display=swap'); </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
+  <style> @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap'); </style>
   <title>CV</title>
 </head>
 <body>
@@ -14,28 +16,22 @@
     <div class="container">
       <div class="header-wrapper">
         <ul class="header-menu">
-          <il class="header-menu--item">
-            <a class="header-menu--link" href="">About Me</a>
-          </il>
-          <il class="header-menu--item">
-            <a class="header-menu--link" href="">Contacts</a>
-          </il>
-          <il class="header-menu--item">
-            <a class="header-menu--link" href="">Education</a>
-          </il>
-          <il class="header-menu--item">
-            <a class="header-menu--link" href="">Skills</a>
-          </il>
-          <il class="header-menu--item">
-            <a class="header-menu--link" href="">Code Example</a>
-          </il>
-          <il class="header-menu--item">
-            <a class="header-menu--link" href="">Languages</a>
-          </il>
+          <li class="header-menu--item">
+            <a class="header-menu--link" href="#me">About Me</a></li>
+          <li class="header-menu--item">
+            <a class="header-menu--link" href="#contact">Contacts</a></li>
+          <li class="header-menu--item">
+            <a class="header-menu--link" href="#educ">Education</a></li>
+          <li class="header-menu--item">
+            <a class="header-menu--link" href="#skills">Skills</a></li>
+          <li class="header-menu--item">
+            <a class="header-menu--link" href="#code">Code Example</a></li>
+          <li class="header-menu--item">
+            <a class="header-menu--link" href="#lang">Languages</a></li>
         </ul>
         <div class="header-content">
           <div class="header-foto">
-            <img class="header-foto--img" src="img/foto.jpg" width="551px" height="709" alt="foto">
+            <img class="header-foto--img" src="img/foto.jpg" alt="foto">
           </div>
           <div class="header-info">
             <h1 class="header-info--name">Chingis Mutyshev</h1>
@@ -49,49 +45,52 @@
     <div class="container">
     <aside class="aside">
         <div class="aside-wrapper">
-          <div class="aside-contact">
-            <h3 class="aside-contact--name">Contact</h3>
-            <ul class="aside-contact--list">
-              <li class="aside-contact--mail">E-mail: mchp94@mail.ru</li>
-              <li class="aside-contact--disc">Discord: Chingis#3411</li>
-              <li class="aside-contact--num">Tel: +79276471361</li>
-              <li class="aside-contact--git">GitHub: ChingisMut</li>
-            </ul>
-          </div>
-          <div class="aside-skill">
-            <h3 class="aside-skill--name">Skills</h3>
-            <ul class="aside-skill--list">
-              <li class="aside-skill--html">HTML</li>
-              <li class="aside-skill--css">CSS</li>
-              <li class="aside-skill--js">JavaScript (Basic)</li>
-              <li class="aside-skill--git">Git/GitHub</li>
-            </ul>
-          </div>
-          <div class="aside-lang">
-            <h3 class="aside-lang-name">Languages</h3>
-            <ul class="aside-lang--list">
-              <li class="aside-lang--ru">Russian - Native</li>
-              <li class="aside-lang--en">English - Upper-intermediate</li>
-            </ul>
+          <div class="aside-content">
+            <div class="aside-contact">
+              <h3 class="aside-contact--name" id="contact">Contact</h3>
+              <ul class="aside-contact--list">
+                <li class="aside-contact--mail">E-mail: mail@mail.ru</li>
+                <li class="aside-contact--disc">Discord: Chingis#3411</li>
+                <li class="aside-contact--num">Tel: +7-777-77-77</li>
+                <li class="aside-contact--git">GitHub: ChingisMut</li>
+              </ul>
+            </div>
+            <div class="aside-skill">
+              <h3 class="aside-skill--name" id="skills">Skills</h3>
+              <ul class="aside-skill--list">
+                <li class="aside-skill--html">HTML</li>
+                <li class="aside-skill--css">CSS</li>
+                <li class="aside-skill--js">JavaScript (Basic)</li>
+                <li class="aside-skill--git">Git/GitHub</li>
+              </ul>
+            </div>
+            <div class="aside-lang">
+              <h3 class="aside-lang-name" id="lang">Languages</h3>
+              <ul class="aside-lang--list">
+                <li class="aside-lang--ru">Russian - Native</li>
+                <li class="aside-lang--en">English - Upper-intermediate</li>
+              </ul>
+            </div>
           </div>
         </div>
       </aside>
       <div class="main-wrapper">
         <div class="main-content">
           <section class="main-content--about">
-            <h3 class="main-content--me">About myself:</h3>
+            <h3 class="main-content--me" id="me">About myself:</h3>
             <div class="main-content--descr">I want to learn Front-End Development in RSSchool!</div>
           </section>
           <section class="main-content--educ">
-            <h3 class="main-content--univ">University: Moscow State University of Civil Engineering</h3>
-            <div class="main-content--spec">Bachelor - Expertise and property management</div>
-            <div class="main-content--univ">2017</div>
-            <h3 class="main-content--univ">Volgograd State University of Architecture and Civil Engineering</h3>
-            <div class="main-content--spec">Master - Industrial and civil construction</div>
-            <div class="main-content--univ">2022</div>
+            <h3 class="main-content-name" id="educ">Education</h3>
+              <h4 class="main-content--univ">University: Moscow State University of Civil Engineering</h4>
+              <div class="main-content--spec">Bachelor - Expertise and property management</div>
+              <div class="main-content--year">2017</div>
+              <h4 class="main-content--univ">Volgograd State University of Architecture and Civil Engineering</h4>
+              <div class="main-content--spec">Master - Industrial and civil construction</div>
+              <div class="main-content--year">2022</div>
           </section>
           <section class="main-content--code">
-            <h3 class="main-content--exam">Code Example</h3>
+            <h3 class="main-content--exam" id="code">Code Example</h3>
             <pre class="main-content--codejs">
               function mergeArrays(arr1, arr2) {
                 const num1 = arr1.concat(arr2);
