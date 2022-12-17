@@ -12,9 +12,6 @@ body{
   background: linear-gradient(180deg, #b1cbd4 10%, #3b39aa 100%);
 }
 
-.header {
-}
-
 .container {
   max-width: 800px;
   margin: 0 auto;
@@ -90,8 +87,6 @@ body{
 /* -------------------------MAIN---------------------------- */
 /* -------------------------MAIN---------------------------- */
 /* -------------------------MAIN---------------------------- */
-.main {
-}
 
 .main-wrapper {
   width: 100%;
@@ -167,8 +162,6 @@ body{
 /* -------------------------ASIDE---------------------------- */
 /* -------------------------ASIDE---------------------------- */
 /* -------------------------ASIDE---------------------------- */
-.aside {
-}
 
 .aside-wrapper {
   width: 300px;
@@ -198,18 +191,6 @@ body{
   list-style-type: none;
 }
 
-.aside-contact--mail {
-}
-
-.aside-contact--disc {
-}
-
-.aside-contact--num {
-}
-
-.aside-contact--git {
-}
-
 .aside-skill {
   margin-bottom: 30px;
 }
@@ -225,18 +206,6 @@ body{
   font-size: 18px;
   line-height: 1.5;
   list-style-type: none;
-}
-
-.aside-skill--html {
-}
-
-.aside-skill--css {
-}
-
-.aside-skill--js {
-}
-
-.aside-skill--git {
 }
 
 .aside-lang {
@@ -256,16 +225,9 @@ body{
   list-style-type: none;
 }
 
-.aside-lang--ru {
-}
-
-.aside-lang--en {
-}
 /* -------------------------FOOTER---------------------------- */
 /* -------------------------FOOTER---------------------------- */
 /* -------------------------FOOTER---------------------------- */
-.footer {
-}
 
 .footer-wrapper{
   width: 100%;
@@ -277,28 +239,10 @@ body{
   background: linear-gradient(45deg, #202027 , #525cbb 50%, #312f60);
 }
 
-.footer-icons {
-}
-
-.footer-icons--git {
-}
-
-.footer-git {
-}
-
 .footer-git--img {
   width: 50px;
 }
 
-.footer-icons--rss {
-}
-
-.footer-rss {
-}
-
 .footer-rss--img {
   width: 50px;
-}
-
-.footer-year {
 }
