@@ -1,1 +1,1 @@
-# rsschool-cv
+https://chingismut.github.io/rsschool-cv/

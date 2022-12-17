@@ -1,0 +1,248 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  color: #fff;
+}
+
+body{
+  min-height: 100vh;
+  margin-top: 100px;
+  background: linear-gradient(180deg, #b1cbd4 10%, #3b39aa 100%);
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+/* -------------------------HEADER---------------------------- */
+/* -------------------------HEADER---------------------------- */
+/* -------------------------HEADER---------------------------- */
+.header-wrapper {
+  width: 100%;
+  background: linear-gradient(45deg, #202027 , #525cbb 70%, #312f60);
+  }
+
+.header-menu {
+  display: flex;
+  width: 95%;
+  min-width: 500px;
+  margin: 20px;
+  justify-content: end;
+  font-size: 18px;
+}
+
+.header-menu--item {
+  margin-left: 10px;
+  list-style-type: none;
+}
+
+.header-menu--link {
+  text-decoration-line: none;
+  color: rgb(36, 29, 29);
+  font-weight: 400;
+  transition: all 0.3s;
+}
+
+.header-menu--link:hover{
+  color: #fff;
+}
+
+.header-content{
+  display: flex;
+  margin: 0 20px 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-foto {
+  width: 200px;
+  height: 256px;
+  padding: 30px;
+  flex-shrink: 0;
+}
+
+.header-foto--img {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+}
+
+.header-info {
+  flex-shrink: 0;
+}
+
+.header-info--name {
+  font-size: 38px;
+}
+
+.header-info--prof {
+  font-size: 24px;
+}
+
+/* -------------------------MAIN---------------------------- */
+/* -------------------------MAIN---------------------------- */
+/* -------------------------MAIN---------------------------- */
+
+.main-wrapper {
+  width: 100%;
+  max-width: 500px;
+}
+
+.main-content {
+  width: 100%;
+  background: #1e1d1d;
+}
+
+.main-content--about {
+  padding: 20px;
+}
+
+.main-content--me {
+  margin-bottom: 10px;
+  font-size: 26px;
+  color: rgb(80, 124, 199);
+  border-bottom: 2px solid rgb(80, 124, 199);
+}
+
+.main-content--descr {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.main-content-name{
+  margin-bottom: 10px;
+  font-size: 26px;
+  color: rgb(80, 124, 199);
+  border-bottom: 2px solid rgb(80, 124, 199);
+}
+
+.main-content--educ {
+  padding: 20px;
+}
+
+.main-content--univ {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.main-content--year{
+  margin-bottom: 20px;
+}
+
+.main-content--spec {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.main-content--code {
+  padding: 20px;
+}
+
+.main-content--exam {
+  font-size: 26px;
+  margin-bottom: 10px;
+  color: rgb(80, 124, 199);
+  border-bottom: 2px solid rgb(80, 124, 199);
+}
+
+.main-content--codejs {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #000;
+  background: rgb(231, 223, 223);
+  border-radius: 10px;
+  padding: 10px;
+}
+/* -------------------------ASIDE---------------------------- */
+/* -------------------------ASIDE---------------------------- */
+/* -------------------------ASIDE---------------------------- */
+
+.aside-wrapper {
+  width: 300px;
+  height: 100%;
+  background: #27242a;
+}
+
+.aside-content{
+  padding: 20px;
+  padding-left: 40px;
+}
+
+.aside-contact {
+  margin-bottom: 30px;
+}
+
+.aside-contact--name {
+  margin-bottom: 10px;
+  font-size: 26px;
+  color: rgb(80, 124, 199);
+  border-bottom: 2px solid rgb(80, 124, 199);
+}
+
+.aside-contact--list {
+  font-size: 18px;
+  line-height: 1.5;
+  list-style-type: none;
+}
+
+.aside-skill {
+  margin-bottom: 30px;
+}
+
+.aside-skill--name {
+  margin-bottom: 10px;
+  font-size: 26px;
+  color: rgb(80, 124, 199);
+  border-bottom: 2px solid rgb(80, 124, 199);
+}
+
+.aside-skill--list {
+  font-size: 18px;
+  line-height: 1.5;
+  list-style-type: none;
+}
+
+.aside-lang {
+  margin-bottom: 30px;
+}
+
+.aside-lang-name {
+  font-size: 26px;
+  margin-bottom: 10px;
+  color: rgb(80, 124, 199);
+  border-bottom: 2px solid rgb(80, 124, 199);
+}
+
+.aside-lang--list {
+  font-size: 18px;
+  line-height: 1.5;
+  list-style-type: none;
+}
+
+/* -------------------------FOOTER---------------------------- */
+/* -------------------------FOOTER---------------------------- */
+/* -------------------------FOOTER---------------------------- */
+
+.footer-wrapper{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(45deg, #202027 , #525cbb 50%, #312f60);
+}
+
+.footer-git--img {
+  width: 50px;
+}
+
+.footer-rss--img {
+  width: 50px;
+}
